@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script>
+        var ary = [
+            ["Harry", 18, "male", "B.Com"],
+            ["Sunny", 19, "male", "BCA"],
+            ["sarah", 18, "male", "BCA"],
+            ["Tom", 17, "male", "B.A"],
+            ["mac", 17, "male", "B.A"]
+          
+
+
+        ];
+
+        //-----index-->  document.write(ary[2][0]);
+     
+        document.write(ary.length);
+        document.write("<table border= '1px' cellspacing= '0'>");
+
+        for (var a = 0; a < ary.length; a++) {
+
+            document.write("<tr>");
+
+            for (var b = 0; b < ary[a].length; b++) {
+                document.write("<td>" + ary[a][b] + "</td> ");
+            }
+
+            document.write(" </tr>");
+        }
+
+        document.write("</table >");
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
