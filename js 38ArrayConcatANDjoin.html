@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script>
+        var a = ["sanjana", "Aman", "rehman"];
+
+        var b = a.concat("rahul", "karan");
+
+        document.write(b + " <br><br>");
+
+
+        //---------
+
+        var a = ["sanjana", "Aman", "rehman"];
+        var b = ["rahul", "karan"];
+
+        var c = a.concat(b+ " <br><br>");
+
+        document.write(c);
+
+        //------------
+
+        var a = ["sanjana", "Aman", "rehman"];
+        var b = ["rahul", "karan"];
+        var d = ["neha", "mahima"]
+        var c = a.concat(b,d+ " <br><br>");
+
+        document.write(c);
+
+        //-------join()
+
+        var a = ["sanjana", "Aman", "rehman"];
+        var b = ["rahul", "karan"];
+        
+        var c = a.concat(b);
+
+        document.write(c+ " <br><br>");
+
+        var d = c.join(" _ ");
+        
+        document.write(d);
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
