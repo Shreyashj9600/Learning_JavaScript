@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script>
+        //-----some()function
+        
+        var ages = [10,13,18,20];
+        document.write(ages + "<br><br>");
+        
+        var b = ages.some(checkAdult);
+        document.write(b + "<br><br>");
+
+        function checkAdult(age){
+            return age >= 18;
+        }
+
+        //-------every()Function
+
+        var ages = [22,25,18,20];
+        document.write(ages + "<br><br>");
+        
+        var b = ages.every(checkAdult);
+        document.write(b + "<br><br>");
+
+        function checkAdult(age){
+            return age >= 18;
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
